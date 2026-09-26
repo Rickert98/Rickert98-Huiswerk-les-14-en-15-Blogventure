@@ -1,6 +1,8 @@
 import './App.css'
 import logo from './assets/logo-white.png'
 
+/* HUiswerkk */
+
 function App() {
     return (
         <div className="page-container">
