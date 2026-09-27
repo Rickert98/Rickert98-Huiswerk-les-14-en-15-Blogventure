@@ -1,0 +1,22 @@
+.form-new-post {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.form-new-post-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.form-new-post-label input {
+    border: none;
+}
+
+.form-new-post-button {
+    margin-top: 5px;
+    background: #38E991;
+    border: none;
+}

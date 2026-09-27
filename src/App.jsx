@@ -25,17 +25,21 @@ function App() {
     return (
         <>
             {<Navigation/>}
+            <main>
+                <Routes>
+                    <Route path="/" element={<Home/>}/>
+                    <Route path="/all-posts" element={<AllPosts/>}/>
+                    <Route path="/new-post" element={<NewPost/>}/>
+                    <Route path="*" element={<NotFound/>}/>
+                    <Route path="/all-posts/:id" element={<BlogpostDetail/>}/>
+                </Routes>
+            </main>
+
             <div className="page-container">
-                <img src={logo} alt="Company logo"/>
-                <h1>Begin hier met het maken van jouw blog-applicatie!</h1>
+                {/*<img src={logo} alt="Company logo"/>*/}
+
             </div>
-            <Routes>
-                <Route path="/" element={<Home/>}/>
-                <Route path="/all-posts" element={<AllPosts/>}/>
-                <Route path="/new-post" element={<NewPost/>}/>
-                <Route path="*" element={<NotFound/>}/>
-                <Route path="/all-posts/:id" element={<BlogpostDetail/>}/>
-            </Routes>
+
         </>
     )
 }
