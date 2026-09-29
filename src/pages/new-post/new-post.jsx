@@ -81,13 +81,14 @@ function New_post () {
                 </label>
                 <label htmlFor="content" className="form-new-post-label">
                     Blogpost
-                    <input
-                        type="textarea"
+                    <textarea
                         name="content"
                         value={newForm.content}
                         onChange={handleChange}
                         minLength="300"
                         maxLength="2000"
+                        cols="40"
+                        rows="20"
                         required
                     />
                 </label>
