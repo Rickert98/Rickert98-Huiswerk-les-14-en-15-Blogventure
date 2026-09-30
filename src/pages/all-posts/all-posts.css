@@ -1,0 +1,44 @@
+main {
+    background: #E8E9ED;
+}
+
+.all-posts-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.all-posts-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.title-author-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: start;
+    align-items: center;
+
+    font-size: 16px;
+    padding: 5px 10px 0 10px;
+
+    gap: 10px;
+}
+
+.author {
+    font-size: 16px;
+}
+
+.comments-shared {
+    font-size: 12px;
+    padding: 0 10px 5px 10px;
+
+}
+
+a {
+    color: #38E991;
+    text-decoration: none;
+}
